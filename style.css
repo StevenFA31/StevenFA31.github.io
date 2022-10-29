@@ -1,0 +1,185 @@
+/******************************* ALL  *******************************/
+
+@font-face {
+  font-family: Assistant-Light;
+  src: url(./font/Assistant-Light.ttf);
+}
+/* Faire la FONT-SIZE tres rapidement (et donc intégrer toute les .class */
+/* * {
+  font-family: ;
+} */
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.35rem;
+  margin: 10px 10px 10px 30px;
+}
+
+.outer-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+body {
+  background-image: url(./assets/fond-ecran2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+section {
+  margin: 0;
+}
+
+section #home.home {
+  min-height: 100vh;
+}
+
+.outer-container {
+  padding: 60px 50px;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+#about,
+#contact,
+#formation {
+  background-color: rgb(202, 202, 202);
+}
+
+#skills,
+#project,
+#experience {
+  background-color: white;
+}
+
+/******************************* Accueil  *******************************/
+
+/* #fondEcran {
+  width: 100%;
+  height: auto;
+} */
+
+#maison {
+  width: 100px;
+  height: 20px;
+}
+
+ul.hometab {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.267);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  height: 50px;
+}
+
+ul.hometab {
+  padding-left: 0px;
+  text-align: center;
+}
+
+ul.hometab > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+ul.hometab > li > a {
+  color: rgb(155, 101, 0);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+div.textehome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 100px 20px;
+
+  padding: 0;
+  border: 0;
+  font-size: 2rem;
+  color: ghostwhite;
+  justify-content: center;
+  align-items: center;
+}
+
+div.textehome h1 b {
+  background-color: rgba(255, 166, 0, 0.74);
+}
+
+div.thefirst {
+  height: 100vh;
+}
+
+div.blockhome {
+  height: 100vh;
+}
+/******************************* A propos de moi  *******************************/
+
+#profil {
+  width: 350px;
+  height: auto;
+}
+
+div.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+}
+
+div.firstbox {
+  padding: 0px 20px 20px 20px;
+}
+
+div.secondbox {
+  padding: 0px 20px 20px 20px;
+}
+
+div.secondbox h2 {
+  margin-top: 0;
+}
+
+/******************************* Experience *******************************/
+
+/******************************* Formation *******************************/
+
+/******************************* Portfolio *******************************/
+
+/******************************* Contact *******************************/
+
+footer {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  width: 25px 20px;
+  padding: 75px;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* .linkedin {
+  width: 20px;
+} */
