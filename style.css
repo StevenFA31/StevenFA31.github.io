@@ -1,13 +1,17 @@
 /******************************* ALL  *******************************/
 
-@font-face {
-  font-family: Assistant-Light;
-  src: url(./font/Assistant-Light.ttf);
+* {
+  font-family: "Open Sans", sans-serif;
 }
+
 /* Faire la FONT-SIZE tres rapidement (et donc intégrer toute les .class */
 /* * {
   font-family: ;
 } */
+
+h2 {
+  text-align: center;
+}
 
 h4 {
   font-size: 1.25rem;
@@ -20,6 +24,12 @@ h5 {
 p {
   font-size: 1.35rem;
   margin: 10px 10px 10px 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
 }
 
 .outer-container h2 {
@@ -123,6 +133,10 @@ div.textehome {
   height: auto;
 }
 
+div.textehome h2 {
+  text-align: start;
+}
+
 div.textehome h1 b {
   background-color: rgba(255, 166, 0, 0.74);
   /* color:  rgba(255, 166, 0, 0.74); */
@@ -173,14 +187,38 @@ div.secondbox h2 {
 /******************************* Contact *******************************/
 
 footer {
-  background-color: rgb(53, 53, 53);
+  background-color: rgb(34, 34, 34);
   color: white;
-  width: 25px 20px;
-  padding: 75px;
+  padding: 30px;
   text-align: center;
-  flex-direction: column;
 }
 
+.logofooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.iconlinkedin,
+.icongithub,
+.iconpaper {
+  width: 35px;
+  height: auto;
+  padding: 10px;
+}
+
+.iconlinkedin {
+  width: 30px;
+  height: auto;
+}
 /* .linkedin {
   width: 20px;
 } */
