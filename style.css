@@ -48,7 +48,7 @@ section {
   margin: 0;
 }
 
-section #home.home {
+section #home {
   min-height: 100vh;
 }
 
@@ -73,46 +73,32 @@ section #home.home {
 
 /******************************* Accueil  *******************************/
 
-/* #fondEcran {
-  width: 100%;
-  height: auto;
-} */
-
-#maison {
-  width: 100px;
-  height: 20px;
-}
-
-ul.hometab {
-  margin: 0px;
-  padding: 0;
-  border: 0;
-  display: inline-block;
-  vertical-align: baseline;
-  list-style: none;
-}
-
 nav {
   background-color: rgba(0, 0, 0, 0.267);
   width: 100%;
+  height: auto;
+  padding: 20px 0;
   position: fixed;
-  top: 0;
-  right: 0%;
-  height: 50px;
 }
 
 ul.hometab {
-  padding-left: 0px;
-  text-align: center;
+  height: 27px;
+  padding: 0;
+  margin: 0 0 0 55%;
+  border: 0;
+  list-style-type: none;
 }
 
 ul.hometab > li {
-  display: inline-block;
-  padding: 10px 20px;
+  padding-left: 30px;
+  margin: 0;
+  border: 0;
+  text-align: center;
+  display: inline;
 }
 
 ul.hometab > li > a {
-  color: rgb(155, 101, 0);
+  color: rgb(238, 172, 51);
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: bold;
@@ -138,7 +124,7 @@ div.textehome h2 {
 }
 
 div.textehome h1 b {
-  background-color: rgba(255, 166, 0, 0.74);
+  background-color: rgb(238, 172, 51);
   /* color:  rgba(255, 166, 0, 0.74); */
   font-size: 5.5rem;
 }
@@ -150,7 +136,12 @@ div.thefirst {
 div.blockhome {
   height: 100vh;
 }
+
 /******************************* A propos de moi  *******************************/
+
+section#about div.outer-container {
+  padding: 80px 50px;
+}
 
 #profil {
   width: 350px;
@@ -179,6 +170,21 @@ div.secondbox h2 {
 }
 
 /******************************* Experience *******************************/
+
+/* hr {
+  height: 100vh;
+  width: 0.1vw;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+} */
+
+/* .work {
+  border-left: thick solid #000;
+  height: auto;
+  left: 50%;
+  position: absolute;
+} */
 
 /******************************* Formation *******************************/
 
@@ -219,6 +225,3 @@ footer p {
   width: 30px;
   height: auto;
 }
-/* .linkedin {
-  width: 20px;
-} */
