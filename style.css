@@ -53,8 +53,8 @@ section #home {
 }
 
 .outer-container {
-  padding: 60px 50px;
-  margin: auto;
+  padding: 40px;
+  margin: 0;
   max-width: 1200px;
   justify-content: center;
 }
@@ -69,6 +69,81 @@ section #home {
 #project,
 #experience {
   background-color: white;
+}
+/******************************* (EXTRA) Barre vertical gauche  *******************************/
+section#about,
+section#experience,
+section#formation,
+section#project,
+section#contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+section#about div.outer-container2 {
+  padding-top: 70px;
+}
+section#experience div.outer-container2 {
+  padding-top: 64px;
+}
+section#formation div.outer-container2 {
+  margin-top: 63px;
+}
+
+section#project div.outer-container2 {
+  margin-top: 60px;
+}
+
+section#contact div.outer-container2 {
+  margin-top: 60px;
+}
+
+div.outer-container2 img {
+  height: 80px;
+  margin: 0;
+}
+
+section#about hr#liner {
+  height: 82%;
+  width: 0.1vw;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+
+section#experience hr#liner {
+  height: 90%;
+  width: 0.1vw;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+section#formation hr#liner {
+  height: 75%;
+  width: 0.1vw;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+
+section#project hr#liner {
+  height: 69%;
+  width: 0.1vw;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
+}
+
+section#contact hr#liner {
+  height: 72%;
+  width: 0.1vw;
+  border-width: 0;
+  color: #000;
+  background-color: #000;
 }
 
 /******************************* Accueil  *******************************/
@@ -136,11 +211,14 @@ div.thefirst {
 div.blockhome {
   height: 100vh;
 }
+section#home .outer-container {
+  margin: auto;
+}
 
 /******************************* A propos de moi  *******************************/
 
 section#about div.outer-container {
-  padding: 80px 50px;
+  padding-top: 80px;
 }
 
 #profil {
@@ -171,21 +249,6 @@ div.secondbox h2 {
 
 /******************************* Experience *******************************/
 
-/* hr {
-  height: 100vh;
-  width: 0.1vw;
-  border-width: 0;
-  color: #000;
-  background-color: #000;
-} */
-
-/* .work {
-  border-left: thick solid #000;
-  height: auto;
-  left: 50%;
-  position: absolute;
-} */
-
 /******************************* Formation *******************************/
 
 /******************************* Portfolio *******************************/
@@ -213,15 +276,18 @@ footer p {
   margin: 0;
 }
 
-.iconlinkedin,
-.icongithub,
-.iconpaper {
-  width: 35px;
-  height: auto;
-  padding: 10px;
-}
-
 .iconlinkedin {
-  width: 30px;
-  height: auto;
+  height: 31px;
+  width: auto;
+  padding: 15px;
+}
+.icongithub {
+  height: 35px;
+  width: auto;
+  padding: 15px;
+}
+.iconpaper {
+  height: 32px;
+  width: auto;
+  padding: 15px;
 }
